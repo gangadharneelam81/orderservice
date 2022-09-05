@@ -1,5 +1,7 @@
 package com.orderservice.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +23,11 @@ public class OrderController {
 	public ResponseEntity<String> createOrder(@RequestBody Order order) {
 		String response = orderService.createOrder(order);
 		return ResponseEntity.status(HttpStatus.OK).body(response);
+	}
+	
+	@GetMapping("/orders")
+	public List<Order> getOrders() {
+		return orderService.getOrders();
 	}
 	
 	@GetMapping("/orders/healthcheck")
