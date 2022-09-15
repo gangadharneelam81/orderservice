@@ -1,0 +1,34 @@
+1) Eureka server is ready for Rigistration and Discovery purpose
+2) OrderService, Product service .. microservices implemented with CRUD Operations as Eureka clients
+3) Tested the services with postman
+
+4) Swagger is applied for Api docs of OrderService
+5) Jacoco is applied for code coverage of OrderService with more than 50%
+6) Mockito test cases are written for OrderService
+7) Dockerization of Microservice Implemented
+8) Git created for code repository
+
+9)  Spring API Gateway is ready for path based Routing
+10) JWT Token is implemented for Orderservice
+
+11) Created RDS MySQL and connected it from local application
+12) Deployed application to AWS using elastic beanstalk and ran end-to-end over there
+
+13) Dockerized and ran application locally using DockerDesktop both application and mysql database should be in dockerized
+14) Dockerized and Deployed docker version to the AWS using elastic beanstalk and tested end-to-end.
+
+15) Implemented ControllerAdvice for exception handling In ProductService
+16) Gone through User Authorization using Spring Security and JWT Token -- websites
+
+17) Creation of RDS-Mysql instance using cloudformation template -- https://www.sqlshack.com/spinning-up-mysql-instances-on-rds-using-cloudformation-templates/
+18) Hosting Static website in S3 bucket -- https://www.golinuxcloud.com/how-to-host-static-website-on-s3/
+
+19) Installation of tools as below for the case study
+
+Spring Boot 2.7.0 and Java17 eclipse latest version installed and did setup
+MYSQL -- Server and client install in local
+Installed Postman for API Testing
+Created Github publics repository for codecheckins
+DockerDesktop -- for local repository, image creation and container running
+DockerHub -- for public repository
+SQLECTRON -- AWS-RDS-MYSQL Client tool
