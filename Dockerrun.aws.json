@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "gangadharneelam81/gangacontainers:latest",
+        "Update": "true"
+    },
+    "Ports": [
+        {
+            "hostPort": 80,
+            "ContainerPort": "5000"
+        }
+    ]
+}

@@ -55,6 +55,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		return super.authenticationManagerBean();
 	}
 	
+	/*
+	 * @Override public void configure(WebSecurity web) throws Exception { web
+	 * .ignoring() .antMatchers("/**.html"); }
+	 */
 	@Override
 	public void configure(WebSecurity web) throws Exception {
 		web
