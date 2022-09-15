@@ -1,0 +1,33 @@
+
+
+show databases;
+create database testdb;
+use testdb;
+
+create table orders( 
+order_id varchar(255),
+customer_id varchar(255),
+order_desc varchar(255),
+order_amt double(15,2),
+product_id varchar(255),
+order_status varchar(255));
+
+select * from orders;
+
+create table products( 
+product_id varchar(255),
+product_name varchar(255),
+price double(15,2));
+
+Create Table products(
+id int(11) NOT NULL AUTO_INCREMENT,
+product_name varchar(255),
+price double(15,2),
+quantity int(11),
+PRIMARY KEY (`id`));
+
+select * from products;
+
+
+
+
